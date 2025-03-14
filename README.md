@@ -35,4 +35,16 @@ The data was scraped from **Amazon's laptop category**,  which includes:
 - **Pandas** (for data manipulation)
 - **Regular Expressions (Regex)** (for text cleaning)
 - **Excel** (for pivot table and visualization)
+
+---
+
+## Data Cleaning & Preparation
+### **Steps Taken:**
+1. **Regex Extraction:** Used a pattern to extract the **brand**, **model**, and **RAM** from the title column: This pattern was apply to title column to extract the brand, model and RAM.
+   ```python
+   import pandas as pd
+   import re
+
+   pattern = r"(?P<brand>\b[A-Za-z]+)\s(?P<model>[A-Za-z0-9\-]+)"
+   df[['brand', 'model']] = df['title'].str.extract(pattern)
   
