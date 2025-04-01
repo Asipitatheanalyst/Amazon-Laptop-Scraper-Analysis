@@ -13,7 +13,7 @@
 ---
 
 ## Project Overview
-This project involves scraping laptop listings from **Amazon** using **BeautifulSoup** in Python, cleaned in **Excel** and **Python**, then analyzed  using **Excel**. The goal is to extract key details such as **brand**, **model**, **price**, **ratings**, and **category**. The data is cleaned and analyzed to derive insights into laptop trends, such as **total brands**, **average price**, **average rating**, and more.
+This project involves scraping laptop listings from **Amazon** using **BeautifulSoup** in Python, cleaned in **Excel** and **Python**, then analyzed and visualize using **Excel**. The goal is to extract key details such as **brand**, **model**, **price**, **ratings**, and **category**. The data is cleaned and analyzed to derive insights into laptop trends, such as **total brands**, **average price**, **average rating**, and more.
 
 ---
 
